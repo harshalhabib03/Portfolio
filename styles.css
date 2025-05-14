@@ -485,7 +485,12 @@ i{
 
 .skill-per.java{
     animation-delay: 0.1s;
-    width: 70%;
+    width: 90%;
+}
+
+.skill-per.springboot{
+    animation-delay: 0.1s;
+    width: 85%;
 }
 
 .skill-per.python{
@@ -560,6 +565,7 @@ i{
 .project-box label{
     font-size: 15px;
     color: var(--text-color);
+    text-align: center;
 }
 
 .project-box::after, .contact-info::after{
@@ -641,12 +647,12 @@ i{
 
 /* contact-form */
 
-.form-control{
+/* .form-control{
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 100%;
-}
+} */
 
 .form-inputs{
     display: flex;
